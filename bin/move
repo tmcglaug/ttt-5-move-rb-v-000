@@ -26,3 +26,5 @@ else
 
 
 end
+
+move(board, index, value)

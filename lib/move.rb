@@ -32,6 +32,3 @@ end
 def update_array_at_with(array, index, value)
   array[index] = value
 end
-
-input_to_index(usr_input)
-move(board,index,value)

@@ -27,27 +27,9 @@ def input_to_index(usr_input)
 
 index = usr_input.to_i
 
-
-  index = usr_input - 1
-
-#if index < 0 || index > 8
-
-  # puts "Your number must be between 1 and 9."
-
-#
-  move(board, index, value='X')
-#end
-else
-
-  index = -1
+index = index - 1
 
 
-
-puts "#{usr_input} is not a number"
-
-#display_board(board)
-
-end
 
 end
 

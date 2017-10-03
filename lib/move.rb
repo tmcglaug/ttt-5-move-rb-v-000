@@ -15,11 +15,7 @@ display_board(board)
 
 end
 
-def is_number?(usr_input)
-    usr_input.to_f.to_s == usr_input.to_s || usr_input.to_i.to_s == usr_input.to_s
 
-
-  end
 
 # code your input_to_index and move method here!
 def input_to_index(usr_input)
@@ -29,7 +25,7 @@ index = usr_input.to_i
 
 index = index - 1
 
-move(board, index, value)
+
 
 end
 

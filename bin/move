@@ -1,5 +1,24 @@
 #!/usr/bin/env ruby
+require_relative "../lib/move.rb"
 
-require_relative '../lib/move.rb'
 
-# Code your CLI Here
+
+puts "Welcome to Tic Tac Toe!"
+puts "Where would you like to go?"
+
+usr_input = gets.strip
+
+if (usr_input != nil)
+
+        if is_number?(usr_input)
+            input_to_index(usr_input)
+        else
+          puts "Not a number"
+          end
+
+
+else
+ puts "Null input"
+
+
+end

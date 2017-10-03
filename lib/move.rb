@@ -1,3 +1,5 @@
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -21,21 +23,20 @@ def is_number?(usr_input)
 
 # code your input_to_index and move method here!
 def input_to_index(usr_input)
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
-if is_number?(usr_input)
 
 
-  index = usr_input.to_i - 1
+index = usr_input.to_i
 
-if index < 0 || index > 8
 
-   puts "Your number must be between 1 and 9."
+  index = usr_input - 1
 
-else
+#if index < 0 || index > 8
 
+  # puts "Your number must be between 1 and 9."
+
+#
   move(board, index, value='X')
-end
+#end
 else
 
   index = -1

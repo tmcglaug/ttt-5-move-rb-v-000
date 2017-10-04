@@ -10,7 +10,8 @@ end
 
 def move(board, index, value='X')
 
-update_array_at_with(board,index,value)
+board[index] = X;
+
 display_board(board)
 
 end
@@ -26,6 +27,4 @@ index.replace(usr_input.to_i - 1)
 
 end
 
-def update_array_at_with(array, index, value)
-  array[index] = value
-end
+

@@ -3,7 +3,7 @@ require_relative "../lib/move.rb"
 
 Class Board
 def initialize (board)
-   @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+   @board = board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 end
 

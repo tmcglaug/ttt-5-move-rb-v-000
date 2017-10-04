@@ -1,5 +1,4 @@
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -19,10 +18,11 @@ end
 
 
 # code your input_to_index and move method here!
-def input_to_index(usr_input)
+def input_to_index(usr_input, index)
+
+index.sub! /(.*)/, usr_input.to_i - 1
 
 
-index = usr_input.to_i - 1
 
 
 

@@ -1,14 +1,22 @@
 #!/usr/bin/env ruby
 require_relative "../lib/move.rb"
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-@index = 0
+Class Board
+def initialize (board)
+   @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+ end
+end
+
+b=Board.board.new
+index = 0
+value = 'X'
 
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
 usr_input = gets.strip
-input_to_index(usr_input, @index)
+input_to_index(usr_input, index, b, value)
 
 puts "Index: #{index}"
 puts "Ready for next thing?"

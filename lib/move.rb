@@ -21,10 +21,8 @@ end
 # code your input_to_index and move method here!
 def input_to_index(usr_input, index)
 
-index.replace(usr_input.to_i - 1)
+usr_input = usr_input.to_i - 1
 
 
 
 end
-
-

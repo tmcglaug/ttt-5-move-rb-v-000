@@ -20,13 +20,9 @@ end
 # code your input_to_index and move method here!
 def input_to_index(usr_input, index)
 
-index.sub! /(.*)/, usr_input.to_i - 1
+index = usr_input.to_i - 1
 
 
-
-
-
-move(board, index, 'X')
 
 end
 

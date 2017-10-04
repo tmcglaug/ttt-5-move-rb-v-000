@@ -21,7 +21,7 @@ end
 def input_to_index(usr_input, board)
 
 
-index = usr_input.to_i
+tempNo = usr_input.to_i
 
 index = index - 1
 

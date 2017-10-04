@@ -22,5 +22,6 @@ def input_to_index(usr_input)
 
 usr_input.to_i - 1
 
-
+index = usr_input.to_i - 1
+return index
 end

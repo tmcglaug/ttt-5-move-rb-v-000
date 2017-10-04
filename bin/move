@@ -2,6 +2,7 @@
 require_relative "../lib/move.rb"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+value = 'X'
 
 print "Welcome to Tic Tac Toe!"
 print "/n"

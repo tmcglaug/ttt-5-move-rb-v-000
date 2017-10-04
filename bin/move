@@ -5,7 +5,6 @@ Class Board
 def initialize (board)
    @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
- end
 end
 
 b=Board.board.new

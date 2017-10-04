@@ -11,7 +11,7 @@ end
 def move(board, index, value='X')
 
 board[index.to_i] = value;
-
+display_board(board)
 
 end
 
@@ -25,6 +25,7 @@ usr_input.to_i - 1
 index = usr_input.to_i - 1
 
 return index
+
 move(board, index, value)
 
 

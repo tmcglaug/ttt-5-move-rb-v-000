@@ -10,8 +10,8 @@ end
 
 def move(board, index, value='X')
 
-board[index.to_i] = value;
-display_board(board)
+board[index] = value;
+
 
 end
 
@@ -20,11 +20,7 @@ def input_to_index(usr_input)
 
 usr_input.to_i - 1
 
-index = usr_input.to_i - 1
 
-
-
-move(board, index, value)
 
 
 end

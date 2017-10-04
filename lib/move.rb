@@ -22,9 +22,9 @@ end
 def input_to_index(usr_input)
 
 
-index = usr_input.to_i
+index = usr_input.to_i - 1
 
-index = index - 1
+
 
 move(board, index, 'X')
 

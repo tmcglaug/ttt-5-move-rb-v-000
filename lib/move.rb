@@ -18,11 +18,11 @@ end
 
 
 # code your input_to_index and move method here!
-def input_to_index(usr_input)
+def input_to_index(usr_input, index)
 
-index = usr_input.to_i - 1
+@index = usr_input.to_i - 1
 
-
+puts "Index: #{index}"
 
 end
 

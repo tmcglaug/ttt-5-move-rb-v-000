@@ -24,7 +24,7 @@ usr_input.to_i - 1
 
 index = usr_input.to_i - 1
 
-
+return index
 move(board, index, value)
 
 

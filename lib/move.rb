@@ -22,7 +22,7 @@ def input_to_index(usr_input, @index)
 
 @index = usr_input.to_i - 1
 
-puts "Index: #{index}"
+puts "Index: @index"
 
 end
 

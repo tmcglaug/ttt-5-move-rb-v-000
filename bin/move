@@ -4,13 +4,12 @@ require_relative "../lib/move.rb"
 
 value = 'X'
 
-print "Welcome to Tic Tac Toe!"
+puts "Welcome to Tic Tac Toe!"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-print "/n"
+
 puts "Where would you like to go?"
 
 usr_input = gets.strip
 input_to_index(usr_input)
-display_board(board)
